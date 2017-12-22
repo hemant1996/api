@@ -1,0 +1,1316 @@
+2017/12/21 18:29:10 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /var/www/html/framework/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /var/www/html/framework/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /var/www/html/framework/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /var/www/html/framework/framework/base/CModule.php(394): CDbConnection->init()
+#3 /var/www/html/framework/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/html/framework/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#5 /var/www/html/framework/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /var/www/html/framework/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /var/www/html/framework/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /var/www/html/framework/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('index')
+#13 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/html/api/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/api/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost/api/index.php?r=gii/default/index
+---
+2017/12/21 18:29:26 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /var/www/html/framework/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /var/www/html/framework/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /var/www/html/framework/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /var/www/html/framework/framework/base/CModule.php(394): CDbConnection->init()
+#3 /var/www/html/framework/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/html/framework/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#5 /var/www/html/framework/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /var/www/html/framework/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /var/www/html/framework/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /var/www/html/framework/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('index')
+#13 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/html/api/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/api/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost/api/index.php?r=gii/default/index
+---
+2017/12/21 18:29:29 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /var/www/html/framework/framework/db/CDbConnection.php:399
+Stack trace:
+#0 /var/www/html/framework/framework/db/CDbConnection.php(347): CDbConnection->open()
+#1 /var/www/html/framework/framework/db/CDbConnection.php(325): CDbConnection->setActive(true)
+#2 /var/www/html/framework/framework/base/CModule.php(394): CDbConnection->init()
+#3 /var/www/html/framework/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /var/www/html/framework/framework/gii/generators/model/ModelCode.php(60): CModule->__get('db')
+#5 /var/www/html/framework/framework/web/CFormModel.php(39): ModelCode->init()
+#6 /var/www/html/framework/framework/gii/CCodeGenerator.php(153): CFormModel->__construct()
+#7 /var/www/html/framework/framework/gii/CCodeGenerator.php(63): CCodeGenerator->prepare()
+#8 /var/www/html/framework/framework/web/actions/CInlineAction.php(49): CCodeGenerator->actionIndex()
+#9 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('index')
+#13 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('gii/model/index')
+#14 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/html/api/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/api/index.php?r=gii/model/index
+HTTP_REFERER=http://localhost/api/index.php?r=gii/default/index
+---
+2017/12/21 18:44:29 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/html/framework/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 /var/www/html/framework/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/html/framework/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/html/framework/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/view')
+#10 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /var/www/html/api/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/index.php?r=post/view
+---
+2017/12/21 18:44:45 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/html/framework/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 /var/www/html/framework/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/html/framework/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/html/framework/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('View')
+#9 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/View')
+#10 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /var/www/html/api/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/index.php?r=post/View
+---
+2017/12/21 18:45:48 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/html/framework/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 /var/www/html/framework/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/html/framework/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/html/framework/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('View')
+#9 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/View')
+#10 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /var/www/html/api/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/index.php?r=post/View
+---
+2017/12/21 18:46:31 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/html/framework/framework/web/CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 /var/www/html/framework/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/html/framework/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/html/framework/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('View')
+#9 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/View')
+#10 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /var/www/html/api/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/index.php?r=Post/View
+---
+2017/12/21 18:54:40 [error] [exception.ParseError] ParseError: syntax error, unexpected '$var' (T_VARIABLE) in /var/www/html/api/protected/controllers/PostController.php:9
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('insert/id/1/aut...')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/insert/id/...')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=post/insert/id/1/author_name/mahajan/title/First%20post/contents/asdasdasdsad/category/none
+---
+2017/12/21 18:57:03 [error] [exception.ParseError] ParseError: syntax error, unexpected '$r' (T_VARIABLE) in /var/www/html/api/protected/controllers/PostController.php:9
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('insert/id/1/aut...')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/insert/id/...')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=post/insert/id/1/author_name/mahajan/title/First%20post/contents/asdasdasdsad/category/none
+---
+2017/12/21 18:57:40 [error] [exception.Error] Error: Call to undefined function save() in /var/www/html/api/protected/controllers/PostController.php:12
+Stack trace:
+#0 [internal function]: PostController->actionInsert('1', 'mahajan', 'First post', 'asdasdasdsad', 'none')
+#1 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#2 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#3 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('insert')
+#7 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/insert/id/...')
+#8 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /var/www/html/api/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/index.php?r=post/insert/id/1/author_name/mahajan/title/First%20post/contents/asdasdasdsad/category/none
+---
+2017/12/22 12:15:13 [error] [exception.ParseError] ParseError: syntax error, unexpected '}' in /var/www/html/api/protected/controllers/PostController.php:7
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('View/')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/View')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=Post/View
+---
+2017/12/22 12:15:38 [error] [exception.ParseError] ParseError: syntax error, unexpected '$comment' (T_VARIABLE) in /var/www/html/api/protected/controllers/PostController.php:37
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('View/')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/View')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=Post/View
+---
+2017/12/22 12:15:51 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "View". in /var/www/html/framework/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(270): CController->missingAction('View')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('View')
+#2 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/View')
+#3 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /var/www/html/api/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/api/index.php?r=Post/View
+---
+2017/12/22 12:16:38 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "View". in /var/www/html/framework/framework/web/CController.php:486
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(270): CController->missingAction('View')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('View')
+#2 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/View')
+#3 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /var/www/html/api/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/api/index.php?r=Post/View
+---
+2017/12/22 12:16:57 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('PostView')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/PostView')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=Post/PostView
+---
+2017/12/22 12:17:02 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('PostView')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/PostView')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=Post/PostView
+---
+2017/12/22 12:17:07 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('PostView')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/PostView')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=Post/PostView
+---
+2017/12/22 12:17:13 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('PostView')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/PostView/1')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=Post/PostView/1
+---
+2017/12/22 12:17:17 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('PostView')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/PostView/1')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=Post/PostView/1
+---
+2017/12/22 12:17:18 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('PostView')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/PostView/1')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=Post/PostView/1
+---
+2017/12/22 12:17:42 [error] [php] include(PostsTable.php): failed to open stream: No such file or directory (/var/www/html/framework/framework/YiiBase.php:432)
+Stack trace:
+#0 /var/www/html/api/protected/controllers/PostController.php(10): spl_autoload_call()
+#1 /var/www/html/framework/framework/web/actions/CInlineAction.php(49): PostController->actionIndex()
+#2 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#4 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#5 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#6 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/index.php?r=Post/Index
+in /var/www/html/api/protected/controllers/PostController.php (10)
+in /var/www/html/api/index.php (13)
+2017/12/22 12:22:42 [error] [exception.ParseError] ParseError: syntax error, unexpected '$comment' (T_VARIABLE) in /var/www/html/api/protected/controllers/PostController.php:38
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('View/')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/View')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=Post/View
+---
+2017/12/22 12:24:49 [error] [exception.ParseError] ParseError: syntax error, unexpected '$comment' (T_VARIABLE) in /var/www/html/api/protected/controllers/PostController.php:38
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('PostView/')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/PostView')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=Post/PostView
+---
+2017/12/22 12:24:51 [error] [exception.ParseError] ParseError: syntax error, unexpected '$comment' (T_VARIABLE) in /var/www/html/api/protected/controllers/PostController.php:38
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('PostView/')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/PostView')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=Post/PostView
+---
+2017/12/22 12:24:51 [error] [exception.ParseError] ParseError: syntax error, unexpected '$comment' (T_VARIABLE) in /var/www/html/api/protected/controllers/PostController.php:38
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('PostView/')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/PostView')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=Post/PostView
+---
+2017/12/22 12:24:51 [error] [exception.ParseError] ParseError: syntax error, unexpected '$comment' (T_VARIABLE) in /var/www/html/api/protected/controllers/PostController.php:38
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('PostView/')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/PostView')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=Post/PostView
+---
+2017/12/22 12:24:52 [error] [exception.ParseError] ParseError: syntax error, unexpected '$comment' (T_VARIABLE) in /var/www/html/api/protected/controllers/PostController.php:38
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('PostView/')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/PostView')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=Post/PostView
+---
+2017/12/22 12:24:52 [error] [exception.ParseError] ParseError: syntax error, unexpected '$comment' (T_VARIABLE) in /var/www/html/api/protected/controllers/PostController.php:38
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('PostView/')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/PostView')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=Post/PostView
+---
+2017/12/22 12:29:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Comment/CCreate". in /var/www/html/framework/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Comment/CCreate')
+#1 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /var/www/html/api/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/api/index.php?r=Comment/CCreate
+---
+2017/12/22 12:29:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Comment/ccreate". in /var/www/html/framework/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Comment/ccreate')
+#1 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /var/www/html/api/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/api/index.php?r=Comment/ccreate
+---
+2017/12/22 12:32:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "Comment/ccreate". in /var/www/html/framework/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Comment/ccreate')
+#1 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /var/www/html/api/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/api/index.php?r=Comment/ccreate
+---
+2017/12/22 12:34:24 [error] [exception.ParseError] ParseError: syntax error, unexpected '$comment' (T_VARIABLE) in /var/www/html/api/protected/controllers/PostController.php:37
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('ccreate/')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/ccreate')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=Post/ccreate
+---
+2017/12/22 12:34:45 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('ccreate')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/ccreate')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=Post/ccreate
+---
+2017/12/22 12:35:20 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('CCreate')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/CCreate')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=Post/CCreate
+---
+2017/12/22 12:35:27 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('CCreate')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/CCreate')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=Post/CCreate
+---
+2017/12/22 12:35:28 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('CCreate')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/CCreate')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=Post/CCreate
+---
+2017/12/22 12:37:37 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('CCreate')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/CCreate')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=Post/CCreate
+---
+2017/12/22 12:37:45 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('CCreate')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/CCreate')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=Post/CCreate
+---
+2017/12/22 12:38:07 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('CCreate')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/CCreate')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=Post/CCreate
+---
+2017/12/22 12:38:28 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('PView')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/PView')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=Post/PView
+---
+2017/12/22 12:38:31 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('PView')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/PView')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=Post/PView
+---
+2017/12/22 12:38:32 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('PView')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/PView')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=Post/PView
+---
+2017/12/22 12:38:32 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('PView')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/PView')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=Post/PView
+---
+2017/12/22 12:38:32 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('PView')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/PView')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=Post/PView
+---
+2017/12/22 12:38:33 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('PView')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/PView')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=Post/PView
+---
+2017/12/22 12:38:33 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('PView')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('Post/PView')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=Post/PView
+---
+2017/12/22 13:05:16 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('pview')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pview')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=post/pview
+---
+2017/12/22 13:05:22 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('pview')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pview')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=post/pview
+---
+2017/12/22 13:05:46 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('pview')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pview/1')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/index.php?r=post/pview/1
+---
+2017/12/22 13:07:29 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `post` (`id`, `author_name`, `title`, `contents`, `category`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in /var/www/html/api/protected/controllers/PostController.php (27)
+in /var/www/html/api/index.php (13)
+2017/12/22 13:07:29 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `post` (`id`, `author_name`, `title`, `contents`, `category`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4) in /var/www/html/framework/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/html/framework/framework/db/ar/CActiveRecord.php(1083): CDbCommand->execute()
+#1 /var/www/html/framework/framework/db/ar/CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 /var/www/html/api/protected/controllers/PostController.php(27): CActiveRecord->save()
+#3 [internal function]: PostController->actionPcreate('1', 'sharmaji', 'Something New', 'asdasdfffff', 'none')
+#4 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#5 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#6 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('pcreate')
+#10 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pcreate/id...')
+#11 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /var/www/html/api/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/api/index.php?r=post/pcreate/id/1/auth/sharmaji/titl/Something%20New/contnt/asdasdfffff/catego/none
+---
+2017/12/22 13:08:38 [error] [exception.CException] CException: Property "Comment.author" is not defined. in /var/www/html/framework/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/html/framework/framework/db/ar/CActiveRecord.php(162): CComponent->__set('author', 'sharmaji')
+#1 /var/www/html/api/protected/controllers/PostController.php(33): CActiveRecord->__set('author', 'sharmaji')
+#2 [internal function]: PostController->actionCcreate('1', '1', 'sharmaji', 'nood goo da')
+#3 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#4 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#5 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('ccreate')
+#9 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/ccreate/id...')
+#10 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /var/www/html/api/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/index.php?r=post/ccreate/id/1/pid/1/auth/sharmaji/comm/nood%20goo%20da
+---
+2017/12/22 13:08:58 [error] [exception.CException] CException: Property "Comment.comment" is not defined. in /var/www/html/framework/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/html/framework/framework/db/ar/CActiveRecord.php(162): CComponent->__set('comment', 'nood goo da')
+#1 /var/www/html/api/protected/controllers/PostController.php(34): CActiveRecord->__set('comment', 'nood goo da')
+#2 [internal function]: PostController->actionCcreate('1', '1', 'sharmaji', 'nood goo da')
+#3 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#4 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#5 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('ccreate')
+#9 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/ccreate/id...')
+#10 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /var/www/html/api/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/index.php?r=post/ccreate/id/1/pid/1/auth/sharmaji/comm/nood%20goo%20da
+---
+2017/12/22 13:12:04 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'author' in 'field list'. The SQL statement executed was: SELECT id, author, title, category_id FROM `post` `t`.
+in /var/www/html/api/protected/controllers/PostController.php (10)
+in /var/www/html/api/index.php (13)
+2017/12/22 13:12:04 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'author' in 'field list'. The SQL statement executed was: SELECT id, author, title, category_id FROM `post` `t` in /var/www/html/framework/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/framework/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/html/framework/framework/db/ar/CActiveRecord.php(1359): CDbCommand->queryAll()
+#2 /var/www/html/framework/framework/db/ar/CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /var/www/html/api/protected/controllers/PostController.php(10): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /var/www/html/framework/framework/web/actions/CInlineAction.php(49): PostController->actionIndex()
+#5 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('Index')
+#9 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/Index')
+#10 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /var/www/html/api/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/index.php?r=post/Index
+---
+2017/12/22 13:17:07 [error] [exception.ParseError] ParseError: syntax error, unexpected '}', expecting ',' or ';' in /var/www/html/api/protected/controllers/PostController.php:21
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('Index/')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/Index')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=post/Index
+---
+2017/12/22 14:11:33 [error] [exception.ParseError] ParseError: syntax error, unexpected '}', expecting ',' or ';' in /var/www/html/api/protected/controllers/PostController.php:29
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('cview/id/1/')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/cview/id/1')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=post/cview/id/1
+---
+2017/12/22 14:14:38 [error] [exception.CException] CException: Property "Comment.post_id" is not defined. in /var/www/html/framework/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/html/framework/framework/db/ar/CActiveRecord.php(162): CComponent->__set('post_id', '1')
+#1 /var/www/html/api/protected/controllers/PostController.php(46): CActiveRecord->__set('post_id', '1')
+#2 [internal function]: PostController->actionCcreate('1', '1', 'asdasd', 'asdas')
+#3 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#4 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#5 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('ccreate')
+#9 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/ccreate/id...')
+#10 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /var/www/html/api/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/index.php?r=post/ccreate/id/1/pid/1/auth/asdasd/comm/asdas
+---
+2017/12/22 14:35:55 [error] [exception.ParseError] ParseError: syntax error, unexpected ';', expecting ')' in /var/www/html/api/protected/models/Post.php:47
+Stack trace:
+#0 [internal function]: YiiBase::autoload('Post')
+#1 /var/www/html/api/protected/controllers/PostController.php(17): spl_autoload_call('Post')
+#2 [internal function]: PostController->actionPview('1')
+#3 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#4 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#5 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('pview')
+#9 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pview/id/1')
+#10 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /var/www/html/api/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+---
+2017/12/22 14:36:17 [error] [exception.CDbException] CDbException: Relation "id" is not defined in active record class "Post". in /var/www/html/framework/framework/db/ar/CActiveFinder.php:227
+Stack trace:
+#0 /var/www/html/framework/framework/db/ar/CActiveFinder.php(300): CActiveFinder->buildJoinTree(Object(CJoinElement), 'id')
+#1 /var/www/html/framework/framework/db/ar/CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#2 /var/www/html/framework/framework/db/ar/CActiveRecord.php(915): CActiveFinder->__construct(Object(Post), Array)
+#3 /var/www/html/framework/framework/db/ar/CActiveRecord.php(1363): CActiveRecord->getActiveFinder(Array)
+#4 /var/www/html/framework/framework/db/ar/CActiveRecord.php(1494): CActiveRecord->query(Object(CDbCriteria))
+#5 /var/www/html/api/protected/controllers/PostController.php(17): CActiveRecord->findByPk('1')
+#6 [internal function]: PostController->actionPview('1')
+#7 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#8 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#9 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('pview')
+#13 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pview/id/1')
+#14 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/html/api/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+---
+2017/12/22 14:36:49 [error] [php] Undefined variable: post (/var/www/html/api/protected/controllers/PostController.php:18)
+Stack trace:
+#0 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#3 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#4 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#5 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+in /var/www/html/api/protected/controllers/PostController.php (18)
+in /var/www/html/api/index.php (13)
+2017/12/22 14:44:01 [error] [exception.CDbException] CDbException: Relation "pid" is not defined in active record class "Post". in /var/www/html/framework/framework/db/ar/CActiveFinder.php:227
+Stack trace:
+#0 /var/www/html/framework/framework/db/ar/CActiveFinder.php(300): CActiveFinder->buildJoinTree(Object(CJoinElement), 'pid')
+#1 /var/www/html/framework/framework/db/ar/CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#2 /var/www/html/framework/framework/db/ar/CActiveRecord.php(915): CActiveFinder->__construct(Object(Post), Array)
+#3 /var/www/html/framework/framework/db/ar/CActiveRecord.php(1363): CActiveRecord->getActiveFinder(Array)
+#4 /var/www/html/framework/framework/db/ar/CActiveRecord.php(1494): CActiveRecord->query(Object(CDbCriteria))
+#5 /var/www/html/api/protected/controllers/PostController.php(17): CActiveRecord->findByPk('1')
+#6 [internal function]: PostController->actionPview('1')
+#7 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#8 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#9 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('pview')
+#13 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pview/id/1')
+#14 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/html/api/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+---
+2017/12/22 14:46:34 [error] [exception.CDbException] CDbException: Relation "id" is not defined in active record class "Comment". in /var/www/html/framework/framework/db/ar/CActiveFinder.php:227
+Stack trace:
+#0 /var/www/html/framework/framework/db/ar/CActiveFinder.php(300): CActiveFinder->buildJoinTree(Object(CJoinElement), 'id')
+#1 /var/www/html/framework/framework/db/ar/CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#2 /var/www/html/framework/framework/db/ar/CActiveRecord.php(915): CActiveFinder->__construct(Object(Comment), Array)
+#3 /var/www/html/framework/framework/db/ar/CActiveRecord.php(1363): CActiveRecord->getActiveFinder(Array)
+#4 /var/www/html/framework/framework/db/ar/CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#5 /var/www/html/api/protected/controllers/PostController.php(18): CActiveRecord->findAll()
+#6 [internal function]: PostController->actionPview('1')
+#7 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#8 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#9 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('pview')
+#13 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pview/id/1')
+#14 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/html/api/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+---
+2017/12/22 14:50:05 [error] [php] include(User.php): failed to open stream: No such file or directory (/var/www/html/framework/framework/YiiBase.php:432)
+Stack trace:
+#0 /var/www/html/api/protected/controllers/PostController.php(18): spl_autoload_call()
+#1 unknown(0): PostController->actionPview()
+#2 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#3 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#4 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#6 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#7 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#8 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+in /var/www/html/api/protected/controllers/PostController.php (18)
+in /var/www/html/api/index.php (13)
+2017/12/22 14:50:33 [error] [php] include(User.php): failed to open stream: No such file or directory (/var/www/html/framework/framework/YiiBase.php:432)
+Stack trace:
+#0 /var/www/html/api/protected/controllers/PostController.php(18): spl_autoload_call()
+#1 unknown(0): PostController->actionPview()
+#2 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#3 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#4 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#6 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#7 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#8 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+in /var/www/html/api/protected/controllers/PostController.php (18)
+in /var/www/html/api/index.php (13)
+2017/12/22 14:50:34 [error] [php] include(User.php): failed to open stream: No such file or directory (/var/www/html/framework/framework/YiiBase.php:432)
+Stack trace:
+#0 /var/www/html/api/protected/controllers/PostController.php(18): spl_autoload_call()
+#1 unknown(0): PostController->actionPview()
+#2 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#3 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#4 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#6 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#7 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#8 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+in /var/www/html/api/protected/controllers/PostController.php (18)
+in /var/www/html/api/index.php (13)
+2017/12/22 14:51:34 [error] [php] include(User.php): failed to open stream: No such file or directory (/var/www/html/framework/framework/YiiBase.php:432)
+Stack trace:
+#0 /var/www/html/api/protected/controllers/PostController.php(18): spl_autoload_call()
+#1 unknown(0): PostController->actionPview()
+#2 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs()
+#3 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#4 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#6 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#7 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#8 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+in /var/www/html/api/protected/controllers/PostController.php (18)
+in /var/www/html/api/index.php (13)
+2017/12/22 14:51:58 [error] [exception.CDbException] CDbException: Relation "comment" is not defined in active record class "Post". in /var/www/html/framework/framework/db/ar/CActiveFinder.php:227
+Stack trace:
+#0 /var/www/html/framework/framework/db/ar/CActiveFinder.php(302): CActiveFinder->buildJoinTree(Object(CJoinElement), 'comment', Array)
+#1 /var/www/html/framework/framework/db/ar/CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#2 /var/www/html/framework/framework/db/ar/CActiveRecord.php(915): CActiveFinder->__construct(Object(Post), Array)
+#3 /var/www/html/framework/framework/db/ar/CActiveRecord.php(1363): CActiveRecord->getActiveFinder(Array)
+#4 /var/www/html/framework/framework/db/ar/CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#5 /var/www/html/api/protected/controllers/PostController.php(23): CActiveRecord->findAll()
+#6 [internal function]: PostController->actionPview('1')
+#7 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#8 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#9 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('pview')
+#13 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pview/id/1')
+#14 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/html/api/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+---
+2017/12/22 14:52:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comments.pid' in 'where clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`author_name` AS `t0_c1`, `t`.`title` AS `t0_c2`, `t`.`contents` AS `t0_c3`, `t`.`category` AS `t0_c4`, `id`.`id` AS `t1_c0`, `id`.`author_name` AS `t1_c1`, `id`.`post` AS `t1_c2`, `id`.`content` AS `t1_c3`, `id`.`created_at` AS `t1_c4`, `id`.`updated_at` AS `t1_c5` FROM `post` `t`  INNER JOIN `comment` `id` ON (`id`.`post`=`t`.`id`) WHERE (comments.pid=1).
+in /var/www/html/api/protected/controllers/PostController.php (23)
+in /var/www/html/api/index.php (13)
+2017/12/22 14:52:25 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comments.pid' in 'where clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`author_name` AS `t0_c1`, `t`.`title` AS `t0_c2`, `t`.`contents` AS `t0_c3`, `t`.`category` AS `t0_c4`, `id`.`id` AS `t1_c0`, `id`.`author_name` AS `t1_c1`, `id`.`post` AS `t1_c2`, `id`.`content` AS `t1_c3`, `id`.`created_at` AS `t1_c4`, `id`.`updated_at` AS `t1_c5` FROM `post` `t`  INNER JOIN `comment` `id` ON (`id`.`post`=`t`.`id`) WHERE (comments.pid=1) in /var/www/html/framework/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/framework/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/html/framework/framework/db/ar/CActiveFinder.php(809): CDbCommand->queryAll()
+#2 /var/www/html/framework/framework/db/ar/CActiveFinder.php(441): CJoinElement->runQuery(Object(CJoinQuery))
+#3 /var/www/html/framework/framework/db/ar/CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 /var/www/html/framework/framework/db/ar/CActiveRecord.php(1364): CActiveFinder->query(Object(CDbCriteria), true)
+#5 /var/www/html/framework/framework/db/ar/CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#6 /var/www/html/api/protected/controllers/PostController.php(23): CActiveRecord->findAll()
+#7 [internal function]: PostController->actionPview('1')
+#8 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#9 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#10 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('pview')
+#14 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pview/id/1')
+#15 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#16 /var/www/html/api/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+---
+2017/12/22 14:53:21 [error] [exception.ParseError] ParseError: syntax error, unexpected ',', expecting ')' in /var/www/html/api/protected/controllers/PostController.php:22
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('pview/id/1/')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pview/id/1')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+---
+2017/12/22 15:20:34 [error] [exception.ParseError] ParseError: syntax error, unexpected 'foreach' (T_FOREACH) in /var/www/html/api/protected/controllers/PostController.php:27
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('pview/id/1/')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pview/id/1')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+---
+2017/12/22 15:20:53 [error] [exception.ParseError] ParseError: syntax error, unexpected '%' in /var/www/html/api/protected/controllers/PostController.php:31
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('pview/id/1/')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pview/id/1')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+---
+2017/12/22 15:21:05 [error] [exception.ParseError] ParseError: syntax error, unexpected ',', expecting ']' in /var/www/html/api/protected/controllers/PostController.php:32
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('pview/id/1/')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pview/id/1')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+---
+2017/12/22 15:21:16 [error] [exception.ParseError] ParseError: syntax error, unexpected '}', expecting ',' or ';' in /var/www/html/api/protected/controllers/PostController.php:36
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('pview/id/1/')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pview/id/1')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+---
+2017/12/22 15:21:37 [error] [php] Undefined variable: post (/var/www/html/api/protected/controllers/PostController.php:20)
+Stack trace:
+#0 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#3 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#4 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#5 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+in /var/www/html/api/protected/controllers/PostController.php (20)
+in /var/www/html/api/index.php (13)
+2017/12/22 15:22:36 [error] [exception.CException] CException: Property "Post.content" is not defined. in /var/www/html/framework/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/framework/framework/db/ar/CActiveRecord.php(145): CComponent->__get('content')
+#1 /var/www/html/api/protected/controllers/PostController.php(23): CActiveRecord->__get('content')
+#2 [internal function]: PostController->actionPview('1')
+#3 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#4 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#5 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('pview')
+#9 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pview/id/1')
+#10 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /var/www/html/api/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+---
+2017/12/22 15:22:45 [error] [php] Undefined variable: comments (/var/www/html/api/protected/controllers/PostController.php:27)
+Stack trace:
+#0 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#3 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#4 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#5 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+in /var/www/html/api/protected/controllers/PostController.php (27)
+in /var/www/html/api/index.php (13)
+2017/12/22 15:23:15 [error] [php] Undefined variable: comment (/var/www/html/api/protected/controllers/PostController.php:27)
+Stack trace:
+#0 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#3 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#4 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#5 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+in /var/www/html/api/protected/controllers/PostController.php (27)
+in /var/www/html/api/index.php (13)
+2017/12/22 15:24:02 [error] [php] Undefined variable: content (/var/www/html/api/protected/controllers/PostController.php:27)
+Stack trace:
+#0 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#3 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#4 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#5 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+in /var/www/html/api/protected/controllers/PostController.php (27)
+in /var/www/html/api/index.php (13)
+2017/12/22 15:24:13 [error] [php] Undefined variable: comment (/var/www/html/api/protected/controllers/PostController.php:27)
+Stack trace:
+#0 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#3 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#4 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#5 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+in /var/www/html/api/protected/controllers/PostController.php (27)
+in /var/www/html/api/index.php (13)
+2017/12/22 15:27:27 [error] [php] Object of class Post could not be converted to string (/var/www/html/api/protected/controllers/PostController.php:27)
+Stack trace:
+#0 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#3 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#4 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#5 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+in /var/www/html/api/protected/controllers/PostController.php (27)
+in /var/www/html/api/index.php (13)
+2017/12/22 15:27:56 [error] [php] Undefined variable: post (/var/www/html/api/protected/controllers/PostController.php:27)
+Stack trace:
+#0 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#3 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#4 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#5 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+in /var/www/html/api/protected/controllers/PostController.php (27)
+in /var/www/html/api/index.php (13)
+2017/12/22 15:28:14 [error] [exception.CException] CException: Property "Post.post" is not defined. in /var/www/html/framework/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/framework/framework/db/ar/CActiveRecord.php(145): CComponent->__get('post')
+#1 /var/www/html/api/protected/controllers/PostController.php(27): CActiveRecord->__get('post')
+#2 [internal function]: PostController->actionPview('1')
+#3 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#4 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#5 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('pview')
+#9 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pview/id/1')
+#10 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /var/www/html/api/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+---
+2017/12/22 15:28:23 [error] [php] Invalid argument supplied for foreach() (/var/www/html/api/protected/controllers/PostController.php:27)
+Stack trace:
+#0 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#3 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#4 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#5 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+in /var/www/html/api/protected/controllers/PostController.php (27)
+in /var/www/html/api/index.php (13)
+2017/12/22 15:31:30 [error] [php] Invalid argument supplied for foreach() (/var/www/html/api/protected/controllers/PostController.php:27)
+Stack trace:
+#0 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#3 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#4 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#5 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+in /var/www/html/api/protected/controllers/PostController.php (27)
+in /var/www/html/api/index.php (13)
+2017/12/22 15:33:17 [error] [php] Invalid argument supplied for foreach() (/var/www/html/api/protected/controllers/PostController.php:27)
+Stack trace:
+#0 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#3 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#4 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#5 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+in /var/www/html/api/protected/controllers/PostController.php (27)
+in /var/www/html/api/index.php (13)
+2017/12/22 15:34:08 [error] [exception.ParseError] ParseError: syntax error, unexpected '}', expecting ',' or ';' in /var/www/html/api/protected/controllers/PostController.php:39
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('pview/id/1/')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pview/id/1')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+---
+2017/12/22 15:34:16 [error] [php] Object of class Post could not be converted to string (/var/www/html/api/protected/controllers/PostController.php:19)
+Stack trace:
+#0 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#3 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#4 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#5 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+in /var/www/html/api/protected/controllers/PostController.php (19)
+in /var/www/html/api/index.php (13)
+2017/12/22 15:38:58 [error] [exception.ParseError] ParseError: syntax error, unexpected '*' in /var/www/html/api/protected/controllers/PostController.php:36
+Stack trace:
+#0 /var/www/html/framework/framework/web/CWebApplication.php(276): CWebApplication->createController('pview/id/1/')
+#1 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pview/id/1')
+#2 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#3 /var/www/html/api/index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+---
+2017/12/22 15:39:07 [error] [php] Invalid argument supplied for foreach() (/var/www/html/api/protected/controllers/PostController.php:27)
+Stack trace:
+#0 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#3 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#4 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#5 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/index.php?r=post/pview/id/1
+in /var/www/html/api/protected/controllers/PostController.php (27)
+in /var/www/html/api/index.php (13)
+2017/12/22 15:57:09 [error] [exception.CException] CException: Property "Post.created_at" is not defined. in /var/www/html/framework/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/html/framework/framework/db/ar/CActiveRecord.php(162): CComponent->__set('created_at', 1513938429)
+#1 /var/www/html/api/protected/models/Post.php(100): CActiveRecord->__set('created_at', 1513938429)
+#2 /var/www/html/framework/framework/db/ar/CActiveRecord.php(1077): Post->beforeSave()
+#3 /var/www/html/framework/framework/db/ar/CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#4 /var/www/html/api/protected/models/Post.php(118): CActiveRecord->save()
+#5 /var/www/html/api/protected/controllers/PostController.php(56): Post::create(Array)
+#6 [internal function]: PostController->actionPcreate('3', 'asdasd', 'ggg', 'asdjhjfiadjaisd...', 'none')
+#7 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#8 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#9 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#11 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('pcreate')
+#13 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pcreate/id...')
+#14 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /var/www/html/api/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/api/post/pcreate/id/3/auth/asdasd/titl/ggg/contnt/asdjhjfiadjaisdjiasid/catego/none
+---
+2017/12/22 15:59:32 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1513938572' for column 'created_at' at row 1. The SQL statement executed was: INSERT INTO `post` (`id`, `author_name`, `title`, `contents`, `category`, `created_at`, `updated_at`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6).
+in /var/www/html/api/protected/models/Post.php (118)
+in /var/www/html/api/protected/controllers/PostController.php (56)
+in /var/www/html/api/index.php (13)
+2017/12/22 15:59:32 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1513938572' for column 'created_at' at row 1. The SQL statement executed was: INSERT INTO `post` (`id`, `author_name`, `title`, `contents`, `category`, `created_at`, `updated_at`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6) in /var/www/html/framework/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/html/framework/framework/db/ar/CActiveRecord.php(1083): CDbCommand->execute()
+#1 /var/www/html/framework/framework/db/ar/CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 /var/www/html/api/protected/models/Post.php(118): CActiveRecord->save()
+#3 /var/www/html/api/protected/controllers/PostController.php(56): Post::create(Array)
+#4 [internal function]: PostController->actionPcreate('3', 'asdasd', 'ggg', 'asdjhjfiadjaisd...', 'none')
+#5 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#6 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#7 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('pcreate')
+#11 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pcreate/id...')
+#12 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#13 /var/www/html/api/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/api/post/pcreate/id/3/auth/asdasd/titl/ggg/contnt/asdjhjfiadjaisdjiasid/catego/none
+---
+2017/12/22 16:01:24 [error] [exception.Error] Error: Call to undefined method Post::create() in /var/www/html/api/protected/controllers/PostController.php:51
+Stack trace:
+#0 [internal function]: PostController->actionPcreate('3', 'asdasd', 'ggg', 'asdjhjfiadjaisd...', 'none')
+#1 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#2 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#3 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('pcreate')
+#7 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pcreate/id...')
+#8 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /var/www/html/api/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/api/post/pcreate/id/3/auth/asdasd/titl/ggg/contnt/asdjhjfiadjaisdjiasid/catego/none
+---
+2017/12/22 16:02:33 [error] [exception.ParseError] ParseError: syntax error, unexpected '<' in /var/www/html/api/protected/models/Post.php:125
+Stack trace:
+#0 [internal function]: YiiBase::autoload('Post')
+#1 /var/www/html/api/protected/controllers/PostController.php(46): spl_autoload_call('Post')
+#2 [internal function]: PostController->actionPcreate('3', 'asdasd', 'ggg', 'asdjhjfiadjaisd...', 'none')
+#3 /var/www/html/framework/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#4 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#5 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('pcreate')
+#9 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/pcreate/id...')
+#10 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#11 /var/www/html/api/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/post/pcreate/id/3/auth/asdasd/titl/ggg/contnt/asdjhjfiadjaisdjiasid/catego/none
+---
+2017/12/22 16:04:31 [error] [php] Trying to get property of non-object (/var/www/html/api/protected/controllers/PostController.php:16)
+Stack trace:
+#0 /var/www/html/framework/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /var/www/html/framework/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#3 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#4 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#5 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#7 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/post/pview/1
+in /var/www/html/api/protected/controllers/PostController.php (16)
+in /var/www/html/api/index.php (13)
+2017/12/22 16:08:19 [error] [php] Undefined variable: titl (/var/www/html/api/protected/controllers/PostController.php:47)
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#1 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#2 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#3 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/post/pcreate/id/1/auth/asasd/titl/ff/contnt/oasdosdooo%20aosdoasod%20oasdoas/catego/pppo
+in /var/www/html/api/protected/controllers/PostController.php (47)
+in /var/www/html/api/index.php (13)
+2017/12/22 16:08:53 [error] [php] Undefined variable: titl (/var/www/html/api/protected/controllers/PostController.php:47)
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(286): PostController->runAction()
+#1 /var/www/html/framework/framework/web/CController.php(265): PostController->runActionWithFilters()
+#2 /var/www/html/framework/framework/web/CWebApplication.php(282): PostController->run()
+#3 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /var/www/html/api/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/post/pcreate/id/1/auth/asasd/titl/ff/contnt/oasdosdooo%20aosdoasod%20oasdoas/catego/pppo
+in /var/www/html/api/protected/controllers/PostController.php (47)
+in /var/www/html/api/index.php (13)
+2017/12/22 16:46:48 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('ccreate')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/ccreate/1/...')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/post/ccreate/1/1/asd/adsadasd
+---
+2017/12/22 16:47:42 [warning] [application] Failed to set unsafe attribute "1" of "Comment".
+in /var/www/html/api/protected/models/Comment.php (118)
+in /var/www/html/api/protected/controllers/PostController.php (70)
+in /var/www/html/api/index.php (13)
+2017/12/22 16:50:09 [warning] [application] Failed to set unsafe attribute "1" of "Comment".
+in /var/www/html/api/protected/models/Comment.php (44)
+in /var/www/html/api/protected/controllers/PostController.php (70)
+in /var/www/html/api/index.php (13)
+2017/12/22 16:53:35 [warning] [application] Failed to set unsafe attribute "1" of "Comment".
+in /var/www/html/api/protected/models/Comment.php (118)
+in /var/www/html/api/protected/controllers/PostController.php (70)
+in /var/www/html/api/index.php (13)
+2017/12/22 16:57:11 [warning] [application] Failed to set unsafe attribute "1" of "Comment".
+in /var/www/html/api/protected/models/Comment.php (118)
+in /var/www/html/api/protected/controllers/PostController.php (70)
+in /var/www/html/api/index.php (13)
+2017/12/22 16:58:19 [warning] [application] Failed to set unsafe attribute "1" of "Comment".
+in /var/www/html/api/protected/models/Comment.php (118)
+in /var/www/html/api/protected/controllers/PostController.php (70)
+in /var/www/html/api/index.php (13)
+2017/12/22 16:58:58 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /var/www/html/framework/framework/web/CController.php:337
+Stack trace:
+#0 /var/www/html/framework/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/framework/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/framework/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/framework/framework/web/CWebApplication.php(282): CController->run('ccreate')
+#4 /var/www/html/framework/framework/web/CWebApplication.php(141): CWebApplication->runController('post/ccreate')
+#5 /var/www/html/framework/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /var/www/html/api/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/api/post/ccreate
+---
+2017/12/22 16:59:27 [warning] [application] Failed to set unsafe attribute "1" of "Comment".
+in /var/www/html/api/protected/models/Comment.php (118)
+in /var/www/html/api/protected/controllers/PostController.php (70)
+in /var/www/html/api/index.php (13)
