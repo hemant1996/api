@@ -96,6 +96,7 @@ class Post extends CActiveRecord {
 		return parent::model($className);
 	}
 	public function beforeSave() {
+		echo "string";
 		if ($this->isNewRecord) {
 			$this->created_at = time();
 		}

@@ -31,9 +31,7 @@ class PostController extends Controller {
 		echo $json;
 
 	}
-	public function actionPupdate($id) {
 
-	}
 	public function actionCview($id) {
 
 		$post = Comment::model()->findByPk($id);
@@ -64,15 +62,15 @@ class PostController extends Controller {
 	public function actionCcreate($id, $pid, $auth, $comm) {
 		$refstatus = array();
 		Comment::create(array(
-			"$id" => $id,
+			"id" => $id,
 			"author_name" => $auth,
 			"post" => $pid,
 			"content" => $comm,
 
 		));
-		$retstatus['statusCode'] = 1;
-		$retstatus['statusMessage'] = "Comment Post Successful";
-		echo json_encode($retstatus);
+		$refstatus['statusCode'] = 1;
+		$refstatus['statusMessage'] = "Comment Post Successful";
+		echo CJSON::encode($refstatus);
 	}
 
 }

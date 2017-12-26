@@ -26,11 +26,11 @@ class Comment extends CActiveRecord {
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, author_name, post, content, created_at, updated_at', 'required'),
+			array('id, author_name, post, content', 'required'),
 			array('id, post', 'numerical', 'integerOnly' => true),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, author_name, post, content, created_at, updated_at', 'safe', 'on' => 'search'),
+			array('id, author_name, post, content', 'safe', 'on' => 'search'),
 		);
 	}
 
@@ -114,6 +114,7 @@ class Comment extends CActiveRecord {
 	}
 
 	public static function create($attributes) {
+
 		$model = new Comment;
 		$model->attributes = $attributes;
 		$model->save();
